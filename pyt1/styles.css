@@ -1,0 +1,81 @@
+html {
+  background-image: url("../fon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.img-style {
+  width: 350px;
+  height: 280px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 1500px;
+  gap: 30px;
+
+  justify-content: center;
+}
+
+.button-check {
+  margin-left: 10px;
+  display: inline-block;
+  padding: 40px 40px;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+  text-align: center;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.wrong-choise-img {
+  width: 300px;
+}
+
+.instruction {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.button-text {
+  font-size: 50px;
+  font-weight: bold;
+  background: rgb(202, 212, 54);
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+a {
+  text-decoration: none; /*Link bez podkreszlenia*/
+  color: black;
+}
+
+.correct-answ {
+  background: rgb(126, 226, 165);
+}
